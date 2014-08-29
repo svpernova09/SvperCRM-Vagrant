@@ -1,7 +1,7 @@
 ---
-ip: "192.168.10.10"
+ip: "192.168.9.9"
 memory: 2048
-cpus: 1
+cpus: 2
 
 authorize: ~/.ssh/id_rsa.pub
 
@@ -9,12 +9,12 @@ keys:
     - ~/.ssh/id_rsa
 
 folders:
-    - map: ~/Code
-      to: /home/vagrant/Code
+    - map: svpercrm
+      to: /home/vagrant/svpercrm
 
 sites:
-    - map: homestead.app
-      to: /home/vagrant/Code/Laravel/public
+    - map: svpercrm.dev
+      to: /home/vagrant/svpercrm/public
 
 variables:
     - key: APP_ENV

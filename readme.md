@@ -1,4 +1,4 @@
-# Laravel Homestead
+# SvperCRM based on Laravel Homestead
 
 The official Laravel local development environment.
 
