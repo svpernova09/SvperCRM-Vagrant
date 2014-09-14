@@ -1,5 +1,7 @@
 # SvperCRM based on Laravel Homestead
 
-The official Laravel local development environment.
 
-Official documentation [is located here](http://laravel.com/docs/homestead?version=4.2).
+
+## Depreciated
+
+## See SvperCRM project as this vagrant has been merged into SvperCRM
